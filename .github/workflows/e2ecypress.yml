@@ -1,7 +1,7 @@
 name: Cypress CI Workflow
 on: pull_request
 jobs:
-  ci:
+  ci-cypress:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
